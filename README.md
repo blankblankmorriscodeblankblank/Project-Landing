@@ -21,7 +21,7 @@ A React-based product landing page component featuring an intelligent form handl
 
 ## Getting Started
 
-Simply import the ProductLanding component into your React application. The form will automatically handle focus management and data capture without impacting performance.
+Import the ProductLanding component into your React application. The form will automatically handle focus management and data capture without impacting performance.
 
 ## Usage Example
 
@@ -40,3 +40,7 @@ function App() {
 ## How It Works
 The component creates three refs 
 *(nameRef, emailRef, productRef)* that connect directly to their respective form elements. When the page loads,``` useEffect ```triggers focus on the name field. Upon form submission, the values are extracted from the refs and displayed, bypassing the need for state management during typing.
+
+![image](https://github.com/user-attachments/assets/ee425377-fe54-43f8-a73f-dae6605863a3)
+
+*Special thanks to Deepseek and Replit* 
